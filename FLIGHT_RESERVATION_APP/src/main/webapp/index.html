@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Reservation Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6645f5bd9a809f19fb31801c/1hu0kfrth';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</head>
+<body>
+ 
+    <header class="header-container">
+        <div class="container">
+            <h1 id="heading">FLIGHT BOOKING SYSTEM</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/log">LOG IN</a></li>
+                    <li><a href="/reg">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Book Your Flight Today!</h1>
+            <p>Search and book your flight with us</p>
+            <form id="flight-search-form" action="findFlights" method="post">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" placeholder="City or Airport">
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" placeholder="City or Airport">
+                <label for="departure-date">Departure Date:</label>
+                <input type="text" id="departure-date" name="departureDate">
+              <!--  <label for="return-date">Return Date:</label>
+                <input type="text" id="return-date" name="return-date">-->
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+        <section class="popular-destinations">
+            <h2>Popular Destinations</h2>
+            <ul>
+                <li>
+                    <img src="../resources/static/images/Frommers-New-York-Central-Park.jpg" alt="New York">
+                    <p>New York</p>
+                </li>
+                <li>
+                    <img src="../resources/static/images/paris-city.avif" alt="Paris">
+                    <p>Paris</p>
+                </li>
+                <li>
+                    <img src="../resources/static/Tokyo.webp" alt="Tokyo">
+                    <p>Tokyo</p>
+                </li>
+                <li>
+                  <img src="../resources/static/images/paris-city.avif" alt="Paris">
+                  <p>Paris</p>
+              </li>
+              <li>
+                  <img src="../resources/static/Tokyo.webp" alt="Tokyo">
+                  <p>Tokyo</p>
+              </li>
+              <li>
+                <img src="../resources/static/images/Frommers-New-York-Central-Park.jpg" alt="New York">
+                <p>New York</p>
+            </li>
+            <li>
+                <img src="../resources/static/images/paris-city.avif" alt="Paris">
+                <p>Paris</p>
+            </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flight Reservation Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
